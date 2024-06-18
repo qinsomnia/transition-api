@@ -1,7 +1,5 @@
 {
   "type": "module",
-  "private": true,
-  "packageManager": "pnpm@9.1.1",
   "scripts": {
     "build": "vite build",
     "dev": "vite --port 3333 --open",
@@ -26,7 +24,6 @@
     "@unocss/reset": "^0.60.2",
     "@vitejs/plugin-vue": "^5.0.4",
     "@vue-macros/volar": "^0.19.1",
-    "@vue/test-utils": "^2.4.6",
     "eslint": "^9.3.0",
     "eslint-plugin-format": "^0.1.1",
     "jsdom": "^24.0.0",
@@ -41,7 +38,6 @@
     "unplugin-vue-macros": "^2.9.2",
     "unplugin-vue-router": "^0.8.6",
     "vite": "^5.2.11",
-    "vitest": "^1.6.0",
     "vue-tsc": "^2.0.19"
   },
   "simple-git-hooks": {
